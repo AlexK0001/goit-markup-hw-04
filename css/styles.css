@@ -31,7 +31,6 @@ a {
 }
 a:hover, a:focus {
     color: #404bbf;
-    /* border-bottom: 4px #404bbf; */
 }
 .header-container {
     display: flex;
@@ -44,9 +43,6 @@ a:hover, a:focus {
     flex-wrap: nowrap;
     border-bottom: 1px solid #e7e9fc;
 }
-ul .address-list:hover, ul .address-list:focus {
-    color: #404bbf;
-}
 header .container {
     width: 1158px;
     margin: 0 auto;
@@ -56,6 +52,22 @@ header .container {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+.header-nav-item {
+    transition: color 250ms;
+}
+.current {
+    position: relative;
+    color: #404bbf;
+}
+.current::after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404BBF;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -89,10 +101,13 @@ header .container {
     color: #2e2f42;
     padding: 24px 0;
 }
-.address-list a {
+.header-contacts-item {
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
+}
+.header-contacts-item:hover, .header-contacts-item:focus { 
+    color: #404bbf;
 }
 .address-list {
     display: flex;
