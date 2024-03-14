@@ -42,12 +42,12 @@ a:hover, a:focus {
     letter-spacing: 0.03em;
     flex-wrap: nowrap;
     border-bottom: 1px solid #e7e9fc;
-}
-header .container {
-    width: 1158px;
-    /* margin: 0 auto; */
     padding: 0 15px;
 }
+/* header .container {
+    width: 1158px;
+    padding: 0 15px;
+} */
 .header-nav {
     display: flex;
     align-items: center;
