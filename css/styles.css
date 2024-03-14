@@ -119,6 +119,10 @@ a:hover, a:focus {
     flex-direction: column;
     align-content: center;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 .hero-text {
     font-weight: 700;
@@ -180,6 +184,15 @@ a:hover, a:focus {
 .benefits-item {
     width: calc((100% - 72px) / 4);
 }
+.benefits-icon-container {
+    background-color: #f4f4fd;
+    align-content: center;
+}
+.benefits-icon {
+    color: #2e2f42;
+    /* width: 64px;
+    height: 64px; */
+}
 .benefits-text {
     font-weight: 400;
     font-size: 16px;
@@ -228,6 +241,18 @@ a:hover, a:focus {
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
+}
+.team-icon-ul {
+    /* display: grid; */
+    justify-content: space-between;
+    align-items: baseline;
+}
+.team-icon-li {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+.team-icon {
+
 }
 .portfolio {
     background-color: #E7E9FC;
