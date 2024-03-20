@@ -123,6 +123,7 @@ a:hover, a:focus {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    max-width: 1440px;
 }
 .hero-text {
     font-weight: 700;
@@ -208,7 +209,6 @@ a:hover, a:focus {
     color: #2E2F42;
     background-color: #f4f4fd;
     padding: 120px 0;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-header {
     font-weight: 700;
@@ -230,6 +230,7 @@ a:hover, a:focus {
     border-radius: 0px 0px 4px 4px;
     width: 264px;
     height: 428px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-item-header {
     font-weight: 500;
@@ -349,8 +350,11 @@ a:hover, a:focus {
     letter-spacing: 0.02em;
     color: #fff;
 }
-.logo-link {
+.footer-icon {
     color: #f4f4fd;
+}
+.footer-icon:hover, .footer-icon:focus {
+    background-color: #31d0aa;;
 }
 .container a {
     display: inline-block;
