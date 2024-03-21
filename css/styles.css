@@ -293,10 +293,13 @@ a:hover, a:focus {
     align-items: center;
     justify-content: center;
     padding: 8px;
-    fill: #fff;
+    /* fill: #fff; */
+}
+.team-icon {
+    fill: #f4f4fd;
 }
 .team-icon-a:hover, .team-icon-a:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
 .portfolio {
     background-color: #E7E9FC;
@@ -381,6 +384,10 @@ a:hover, a:focus {
     flex-direction: row;
     justify-content: start;
 }
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -393,7 +400,7 @@ a:hover, a:focus {
 }
 .footer-info {
     /* padding-right: 120px; */
-    width: 264px;
+    /* width: 264px; */
 }
 .footer-ul {
     display: flex;
@@ -413,6 +420,8 @@ a:hover, a:focus {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
+    display: flex;
+    justify-content: flex-start;
 }
 .footer-icon {
     fill: #f4f4fd;
