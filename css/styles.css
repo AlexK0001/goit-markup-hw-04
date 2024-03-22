@@ -102,14 +102,16 @@ a:hover, a:focus {
 .header-nav-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;;
     padding: 24px 0;
+    position: relative;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-item {
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
-    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-item:hover, .header-contacts-item:focus { 
     color: #404bbf;
@@ -294,6 +296,9 @@ a:hover, a:focus {
     justify-content: center;
     padding: 8px;
 }
+.team-icon a {
+    display: flex;
+}
 .team-icon {
     fill: #f4f4fd;
 }
@@ -334,7 +339,7 @@ a:hover, a:focus {
     align-items: center;
     padding: 40px 32px;
     transform: translateY(100%);
-    transition: background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item {
     background-color: #FFFFFF;
@@ -367,6 +372,7 @@ a:hover, a:focus {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item-text {
     font-weight: 400;
@@ -409,6 +415,9 @@ a:hover, a:focus {
     display: flex;
     gap: 16px;
 }
+.footer-a {
+    display: flex;
+}
 .footer-icons {
     padding-left: 120px;
     width: 328px;
@@ -425,6 +434,7 @@ a:hover, a:focus {
     color: #fff;
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 16px;
 }
 .footer-icon {
     fill: #f4f4fd;
