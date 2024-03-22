@@ -37,7 +37,7 @@ a:hover, a:focus {
 .header-container {
     display: flex;
     align-items: center;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header {
     font-size: 16px;
@@ -59,7 +59,7 @@ a:hover, a:focus {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-item {
-    transition: color 250ms;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current {
     position: relative;
@@ -99,12 +99,12 @@ a:hover, a:focus {
     align-content: space-between;
     display: flex;
     gap: 40px;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts {
     font-style: normal;
     margin-left: auto;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-link {
     line-height: 1.5;
@@ -112,13 +112,13 @@ a:hover, a:focus {
     color: #404bbf;;
     padding: 24px 0;
     position: relative;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-item {
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-item:hover, .header-contacts-item:focus { 
     color: #404bbf;
@@ -126,7 +126,7 @@ a:hover, a:focus {
 .address-list {
     display: flex;
     gap: 40px;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-tel, .address-mail {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
