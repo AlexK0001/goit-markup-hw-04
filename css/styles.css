@@ -106,13 +106,13 @@ a:hover, a:focus {
     color: #404bbf;;
     padding: 24px 0;
     position: relative;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .header-contacts-item {
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .header-contacts-item:hover, .header-contacts-item:focus { 
     color: #404bbf;
@@ -120,6 +120,7 @@ a:hover, a:focus {
 .address-list {
     display: flex;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* .contacts-mail {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
